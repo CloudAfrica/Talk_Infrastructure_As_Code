@@ -1,2 +1,2 @@
 [cloudafrica]
-ngtconf	ansible_ssh_host=41.79.78.88 ansible_ssh_user=ubuntu
+ngtconf	ansible_ssh_host=41.79.78.100 ansible_ssh_user=ubuntu

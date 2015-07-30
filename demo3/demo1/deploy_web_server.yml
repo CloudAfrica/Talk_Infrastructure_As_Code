@@ -1,8 +1,0 @@
-- hosts: cloudafrica
-  sudo: true
-
-  tasks:
-    - name: Apt install apache2
-      apt: name=apache2 update_cache=yes 
-
-    - debug: msg="Host address is http://{{ ansible_eth0.ipv4.address }}/"
