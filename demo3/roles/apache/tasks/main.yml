@@ -1,0 +1,5 @@
+- name: Install Apache
+  apt: name=apache2 update_cache=yes
+
+- name: Ensure apache2 starts at boot
+  service: name=apache2 state=started enabled=yes

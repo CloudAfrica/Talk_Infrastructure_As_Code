@@ -1,0 +1,2 @@
+- name: Install python-software-properties and update apt
+  apt: name=python-software-properties update_cache=yes
